@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>carshop</h1>
+                <ul>
+                    <li><a class="menu_link" href="index.html">home</a></li>
+                    <li><a class="menu_link" href="product.html">product</a></li>
+                    <li><a class="menu_link" href="about_us.html">about us</a></li>
+                    <li><a class="menu_link" href="contact_us.html">contact us</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="main">
+            <h1>contact_us</h1>
+            <h2>contact form</h2>
+                <form>
+                    <label for="firstname">firstname</label>
+                    <input type="text" name="firstname" placeholder="First name" id="first_name">
+
+                    <label for="lastname">lastname</label>
+                    <input type="text" name="lastname" placeholder="Last name">
+
+                    <br>
+                    <label for="password">password</label>
+                    <input type="password" name="password" required>
+
+                    <br>
+                    <label for="birthday">birthday</label>
+                    <input type="date" name="birthday">
+
+                    <br>
+                    <label for="email">email</label>
+                    <input type="email" name="email" >
+
+                    <br>
+                    <label for="age">age</label>
+                    <input type="number" name="age" min="0" max="120">
+
+                    <br>
+                    <label for="message">message for carshop company</label>
+                    <br>
+                    <textarea name="message"></textarea>
+
+                    <br>
+                    <br>
+                    Message for carshop company
+                    <br>
+                    <label for="message_type">suggestion</label>
+                    <input type="radio" value="suggestion" name="message_type">
+                    <br>
+                    <label for="message_type">Inquiry</label>
+                    <input type="radio" value="inquiry" name="message_type">
+                    <br>
+                    <label for="message_type">Booking</label>
+                    <input type="radio" value="booking" name="message_type">
+
+                    <br>
+                    <br>
+                    <label for="product">Toyota</label>
+                    <input type="checkbox" name="product" value="Toyota">
+                    <br>
+                    <label for="product">Nissan</label>
+                    <input type="checkbox" name="product" value="Nissan">
+                    <br>
+                    <label for="product">Caeservice</label>
+                    <input type="checkbox" name="product" value="Caeservice">
+
+                    <br>
+                    Country of residence
+                    <br>
+                    <select name="Country_of_residence">
+                        <option value="argentina">argentina</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="japan">Japan</option>
+                        <option value="philippines">Philippines</option>
+                        <option value="usa">Usa</option>
+                    </select>
+
+                    <br>
+                    <select name="Country_of_interest" multiple>
+                        <option value="argentina">argentina</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="japan">Japan</option>
+                        <option value="philippines">Philippines</option>
+                        <option value="usa">Usa</option>
+                    </select>
+
+                    <br>
+                    <label for="attachment">File upload</label>
+                    <input type="file" name="attachment_File">
+
+                    <br>
+                    <input type="image" src="image/others/greeabottun.jpeg">
+
+                    <br>
+                    <input type="button" value="Click me">
+
+                
+                    
+            </form>
+        </div>  
+</body>
+</html>

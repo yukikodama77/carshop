@@ -1,0 +1,57 @@
+*{
+    font-family: 'neiryo ui', Courier, monospace;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: silver;
+}
+header{
+    height: 140px;
+    background-color: rgb(42, 44, 49);
+    color: snow;
+    text-align: center;
+    z-index: 10px;
+}
+header h1{
+    padding-top: 30px;
+    text-shadow: 2px 2px rgb(161, 161, 8);
+}
+header ul{
+    margin-top: 0;
+}
+header li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header li:hover{
+    background-color: coral;
+}
+
+header a{
+    color :white
+}
+.main h1{
+    background-image: url("../image/cars/roadster.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    background-attachment: fixed;
+}
+table{
+    border-collapse: separate;
+    border-width: 2px;
+    margin: 0 auto;
+}
+
+#first_name:focus{
+    background-color: yellow;
+}
