@@ -29,7 +29,7 @@ header li{
 }
 
 header li:hover{
-    background-color: coral;
+    background-color: rgb(255, 80, 211);
 }
 
 header a{
@@ -53,5 +53,5 @@ table{
 }
 
 #first_name:focus{
-    background-color: yellow;
+    background-color: rgb(14, 145, 221);
 }
